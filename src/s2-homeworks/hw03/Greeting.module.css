@@ -1,35 +1,51 @@
 .greetingForm {
+
 }
 
 .inputAndButtonContainer {
+display: flex;
 }
 
 .error {
+
+    color: #cc0000;
 }
 
 .input {
+
 }
 
 .input:focus {
+
 }
 
 .errorInput {
+    border-color: #cc0000;
+    border: #cc0000 1px solid;
 }
 
 .button {
+    color: white;
+    background-color: #2faac4;
+    margin-left: 5px;
 }
 
 .button:focus {
+
 }
 
 .button:active {
+    color: white;
+    background-color: #0059b3;
 }
 
 .button:disabled {
 }
 
 .text {
+
 }
 
 .greeting {
+
 }
