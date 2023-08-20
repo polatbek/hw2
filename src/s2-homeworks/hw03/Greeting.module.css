@@ -1,13 +1,17 @@
 .greetingForm {
+    color: darkgreen;
 }
 
 .inputAndButtonContainer {
+    display: flex;
 }
 
 .error {
+    color: #cc0000;
 }
 
 .input {
+    color: #0059b3;
 }
 
 .input:focus {
@@ -20,12 +24,15 @@
 }
 
 .button:focus {
+
 }
 
 .button:active {
+    background-color: #0059b3;
 }
 
 .button:disabled {
+    color: grey;
 }
 
 .text {
