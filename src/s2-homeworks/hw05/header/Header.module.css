@@ -1,8 +1,13 @@
 .burgerMenuIcon {
+    background-color: greenyellow;
 }
 
 .header {
 }
 
 .header h1 {
+    width: 100%;
+    background-color: #DDEEFF;
+    position: relative;
+    right: -90%;
 }
