@@ -1,22 +1,39 @@
 .sidebar {
-}
+
+    transition: transform 0.3s; /* Плавная анимация перемещения */
+    transform: translateX(-100%); /* Скрываем сайдбар за левой границей экрана */
+    }
 
 .sidebar.open {
+    width: 20%; /* Основной контент занимает 80% ширины */
+    height: 100vh;
+    position: fixed;
+    transform: translateX(0); /* Показываем сайдбар, перемещая его в видимую область */
+    background-color: aliceblue; /* Изменение цвета фона в открытом состоянии */
 }
 
 .background {
 }
 
 .nav {
+    display: block;
+
+
 }
 
 .nav a {
+
 }
 
 .nav a:hover {
 }
 
 .nav a.active {
+    display: flow;
+    margin: 10px;
+    color: #0066cc;
+    text-decoration: none;
+
 }
 .close {
 }
